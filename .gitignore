@@ -9,6 +9,24 @@ export_presets.cfg
 # Imported translations (automatically generated from CSV files)
 *.translation
 
+# Files to ignore.
+Ehthumbs.db
+ehthumbs.db
+Thumbs.db
+thumbs.db
+.DS_Store
+.fscache
+*~
+*.bak
+*.exe
+*.pck
+*.tmp
+*.x86_64
+*.x86
+
+# Directories to ignore.
+logs/
+
 # Mono-specific ignores
 .mono/
 data_*/

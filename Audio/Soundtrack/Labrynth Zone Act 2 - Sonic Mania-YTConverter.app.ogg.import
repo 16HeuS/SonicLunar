@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://colmp0678cn6p"
+path="res://.godot/imported/Labrynth Zone Act 2 - Sonic Mania-YTConverter.app.ogg-366037c017241cd0f4580d8321c63744.oggvorbisstr"
+
+[deps]
+
+source_file="res://Audio/Soundtrack/Labrynth Zone Act 2 - Sonic Mania-YTConverter.app.ogg"
+dest_files=["res://.godot/imported/Labrynth Zone Act 2 - Sonic Mania-YTConverter.app.ogg-366037c017241cd0f4580d8321c63744.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

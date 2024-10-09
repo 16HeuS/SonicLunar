@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://bigq0x6u7o51m"]
+
+[ext_resource type="ArrayMesh" uid="uid://dgab6ybxt260o" path="res://Graphics/3d Objects/MonarchPlans.obj" id="1_wgojs"]
+[ext_resource type="Script" path="res://Entities/Boss/MonarchPlans.gd" id="2_x8qb8"]
+
+[node name="MonarchPlans" type="Node3D"]
+
+[node name="MonarchPlans" type="MeshInstance3D" parent="."]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0.14209, 0, -0.142798)
+mesh = ExtResource("1_wgojs")
+script = ExtResource("2_x8qb8")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.100978, 2.02747, 2.48304)
+fov = 48.3
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -0.471566, 0.881831, 0, -0.881831, -0.471566, 0, 3.4042, 0)
