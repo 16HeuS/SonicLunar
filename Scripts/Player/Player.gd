@@ -224,7 +224,7 @@ var ring1upCounter = 100
 # How far in can the player can be towards the screen edge before they're limit_length
 var cameraMargin = 16
 
-# Gimmick related
+# Gimmick related	
 var poleGrabID = null
 
 # Enemy related
