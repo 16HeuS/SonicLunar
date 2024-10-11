@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=3 uid="uid://dwybbnboecmkw"]
+[gd_scene load_steps=10 format=3 uid="uid://dwybbnboecmkw"]
 
 [ext_resource type="Script" path="res://Scripts/Objects/Bumper.gd" id="1"]
 [ext_resource type="Texture2D" uid="uid://twldqgya2vgk" path="res://Graphics/Obstacles/bumpers.png" id="2"]
@@ -7,29 +7,37 @@
 [sub_resource type="RectangleShape2D" id="5"]
 size = Vector2(17, 17)
 
-[sub_resource type="AtlasTexture" id="1"]
+[sub_resource type="AtlasTexture" id="AtlasTexture_5n5nb"]
 atlas = ExtResource("2")
-region = Rect2(32, 0, 32, 32)
+region = Rect2(0, 0, 38, 38)
 
-[sub_resource type="AtlasTexture" id="2"]
+[sub_resource type="AtlasTexture" id="AtlasTexture_tbafo"]
 atlas = ExtResource("2")
-region = Rect2(64, 0, 32, 32)
+region = Rect2(38, 0, 38, 38)
 
-[sub_resource type="AtlasTexture" id="3"]
+[sub_resource type="AtlasTexture" id="AtlasTexture_y82t0"]
 atlas = ExtResource("2")
-region = Rect2(0, 0, 32, 32)
+region = Rect2(76, 0, 38, 38)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4xsoe"]
+atlas = ExtResource("2")
+region = Rect2(114, 0, 38, 38)
 
 [sub_resource type="SpriteFrames" id="4"]
+resource_local_to_scene = true
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("1")
+"texture": SubResource("AtlasTexture_5n5nb")
 }, {
 "duration": 1.0,
-"texture": SubResource("2")
+"texture": SubResource("AtlasTexture_tbafo")
 }, {
 "duration": 1.0,
-"texture": SubResource("3")
+"texture": SubResource("AtlasTexture_y82t0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4xsoe")
 }],
 "loop": false,
 "name": &"default",
@@ -47,7 +55,7 @@ shape = SubResource("5")
 
 [node name="Bumper" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("4")
-frame = 2
+frame = 3
 frame_progress = 1.0
 
 [node name="BumperSFX" type="AudioStreamPlayer" parent="."]

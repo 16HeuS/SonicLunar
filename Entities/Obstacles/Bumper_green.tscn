@@ -1,0 +1,46 @@
+[gd_scene load_steps=8 format=3 uid="uid://cmfntbanybc5v"]
+
+[ext_resource type="PackedScene" uid="uid://dwybbnboecmkw" path="res://Entities/Obstacles/Bumper.tscn" id="1_6soev"]
+[ext_resource type="Texture2D" uid="uid://c2vul242krdj2" path="res://Graphics/Obstacles/bumpers2.png" id="2_ebdei"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_v8kah"]
+atlas = ExtResource("2_ebdei")
+region = Rect2(0, 0, 38, 38)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qwnrb"]
+atlas = ExtResource("2_ebdei")
+region = Rect2(38, 0, 38, 38)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wqghe"]
+atlas = ExtResource("2_ebdei")
+region = Rect2(76, 0, 38, 38)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pwnaa"]
+atlas = ExtResource("2_ebdei")
+region = Rect2(114, 0, 38, 38)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_xvgcr"]
+resource_local_to_scene = true
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_v8kah")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qwnrb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wqghe")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pwnaa")
+}],
+"loop": false,
+"name": &"default",
+"speed": 10.0
+}]
+
+[node name="Bumper" instance=ExtResource("1_6soev")]
+
+[node name="Bumper" parent="." index="1"]
+sprite_frames = SubResource("SpriteFrames_xvgcr")
