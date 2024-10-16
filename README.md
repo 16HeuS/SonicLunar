@@ -1,6 +1,6 @@
 # Sonic Lunar Masquerade
 
-**Sonic Lunar Masquerade** is a 2D Sonic the Hedgehog fan game project built using the **Sonic Worlds Next** framework with **Godot 4.3**. The game features fast-paced, classic Sonic gameplay with new mechanics and unique level designs, combining the energy of classic 2D Sonic with fresh, thematic twists. This project aims to create an immersive fan game experience while paying homage to the beloved Sonic series.
+**Sonic Lunar Masquerade** is a 2D Sonic the Hedgehog fan game project built using the **[Sonic Worlds Next](https://github.com/Techokami/SonicWorldsNext)** framework with **Godot 4.3**. The game features fast-paced, classic Sonic gameplay with new mechanics and unique level designs, combining the energy of classic 2D Sonic with fresh, thematic twists. This project aims to create an immersive fan game experience while paying homage to the beloved Sonic series.
 
 ## Features
 
